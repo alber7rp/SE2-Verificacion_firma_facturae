@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Facturae xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:fe="http://www.facturae.es/Facturae/2014/v3.2.1/Facturae"><FileHeader><SchemaVersion>3.2.1</SchemaVersion><Modality>I</Modality><InvoiceIssuerType>EM</InvoiceIssuerType><Batch><BatchIdentifier>66777888N1Emit-</BatchIdentifier><InvoicesCount>1</InvoicesCount><TotalInvoicesAmount><TotalAmount>76.16</TotalAmount></TotalInvoicesAmount><TotalOutstandingAmount><TotalAmount>76.16</TotalAmount></TotalOutstandingAmount><TotalExecutableAmount><TotalAmount>76.16</TotalAmount></TotalExecutableAmount><InvoiceCurrencyCode>EUR</InvoiceCurrencyCode></Batch></FileHeader><Parties><SellerParty><TaxIdentification><PersonTypeCode>J</PersonTypeCode><ResidenceTypeCode>U</ResidenceTypeCode><TaxIdentificationNumber>33444555F</TaxIdentificationNumber></TaxIdentification><LegalEntity><CorporateName>Carlos Pérez Martínez</CorporateName><AddressInSpain><Address>Calle La Luz</Address><PostCode>38390</PostCode><Town>Santa Úrsula</Town><Province>Tenerife</Province><CountryCode>ESP</CountryCode></AddressInSpain></LegalEntity></SellerParty><BuyerParty><TaxIdentification><PersonTypeCode>J</PersonTypeCode><ResidenceTypeCode>U</ResidenceTypeCode><TaxIdentificationNumber>66777888N</TaxIdentificationNumber></TaxIdentification><LegalEntity><CorporateName>Alberto Ruiz Pérez</CorporateName><AddressInSpain><Address>Calle Isidoro Luz</Address><PostCode>38390</PostCode><Town>Santa Úrsula</Town><Province>Tenerife</Province><CountryCode>ESP</CountryCode></AddressInSpain></LegalEntity></BuyerParty></Parties><Invoices><Invoice><InvoiceHeader><InvoiceNumber>1</InvoiceNumber><InvoiceSeriesCode>Emit-</InvoiceSeriesCode><InvoiceDocumentType>FC</InvoiceDocumentType><InvoiceClass>OO</InvoiceClass></InvoiceHeader><InvoiceIssueData><IssueDate>2019-05-01</IssueDate><PlaceOfIssue><PostCode>38390</PostCode></PlaceOfIssue><InvoiceCurrencyCode>EUR</InvoiceCurrencyCode><TaxCurrencyCode>EUR</TaxCurrencyCode><LanguageName>es</LanguageName></InvoiceIssueData><TaxesOutputs><Tax><TaxTypeCode>01</TaxTypeCode><TaxRate>12.0</TaxRate><TaxableBase><TotalAmount>68.0</TotalAmount></TaxableBase><TaxAmount><TotalAmount>8.16</TotalAmount></TaxAmount></Tax></TaxesOutputs><InvoiceTotals><TotalGrossAmount>68.0</TotalGrossAmount><TotalGeneralDiscounts>0.0</TotalGeneralDiscounts><TotalGeneralSurcharges>0.0</TotalGeneralSurcharges><TotalGrossAmountBeforeTaxes>68.0</TotalGrossAmountBeforeTaxes><TotalTaxOutputs>8.16</TotalTaxOutputs><TotalTaxesWithheld>0.0</TotalTaxesWithheld><InvoiceTotal>76.16</InvoiceTotal><TotalOutstandingAmount>76.16</TotalOutstandingAmount><TotalExecutableAmount>76.16</TotalExecutableAmount><TotalReimbursableExpenses>0.0</TotalReimbursableExpenses></InvoiceTotals><Items><InvoiceLine><ItemDescription>4</ItemDescription><Quantity>2</Quantity><UnitOfMeasure>01</UnitOfMeasure><UnitPriceWithoutTax>34</UnitPriceWithoutTax><TotalCost>68</TotalCost><GrossAmount>68</GrossAmount><TaxesOutputs><Tax><TaxTypeCode>01</TaxTypeCode><TaxRate>12</TaxRate><TaxableBase><TotalAmount>68</TotalAmount></TaxableBase><TaxAmount><TotalAmount>8.16</TotalAmount></TaxAmount></Tax></TaxesOutputs></InvoiceLine></Items></Invoice></Invoices><ds:Signature xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature505474">
+<ds:SignedInfo Id="Signature-SignedInfo826161">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID355630" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature505474-SignedProperties890159">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>9wCga6KChooa01e7e/u7eK9WOng=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1627125">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>XLp25FxbIK7Dr3J5c/Inj7laf/M=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-426544" URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>YzD2o4D3Kr3S3SkIm6bhwoQivXg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue380868">
+dXuJNc/ZOhYU6Jky31B9Vp1XWU3iesqEMhePc5qcEVgSIsZXn0mQcKWF1r2XYE5uYhdqoW2EBRej
+dEIwQS3feAP/4vloZWlJA69dpZvoAw+DSq5WqQkGUDPfO6fvQQe6rBgBN3XioyLae06nnMlAPm/t
+42bdCsa5urBzJ3tCVM8=
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1627125">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDwzCCAqugAwIBAgIQQEuhC/gavWpZy1xigdmx7zANBgkqhkiG9w0BAQsFADBuMUEwPwYDVQQK
+EzhTYWZlbGF5ZXIgU2VjdXJlIENvbW11bmljYXRpb25zLCBTLkEuIFtDLkkuRi4gQTYxOTMwMDQ2
+XTEpMCcGA1UEAxMgU2FmZWxheWVyIC0gQ2xhc3MgMSBSb290IENBIERlbW8wHhcNMTcwOTI3MDgw
+ODAyWhcNMjAwOTI3MDgwODAyWjBoMQswCQYDVQQGEwJFUzEPMA0GA1UECwwGVmVudGFzMRIwEAYD
+VQQKDAlFbXByZXNhIEExEjAQBgNVBAUTCTMzNDQ0NTU1RjEgMB4GA1UEAwwXQ2FybG9zIFDDqXJl
+eiBNYXJ0w61uZXowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK7fFridodgXapu1D33ar6XT
+l5av6n+CcraPVj/KFz9TAvtQnrbgUoXEhf6ysTzeOzldlLcoJ6fa8Vhzs1XS84xL6ieZLUJCl57r
+9MY4VzQxOonrjt+V8/PVNuWbvXCOTAwRfXpipY2fO8TA8AB3BWFxOXwIRsvw3/Hy1SVjXt03AgMB
+AAGjgeYwgeMwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIG
+CCsGAQUFBwMEMB0GA1UdDgQWBBSOlCpxzPnUYGiEH5NGrjytQzTXKzAfBgNVHSMEGDAWgBQ0SZsE
+GQRCAI/Q9nibxNeNwBftNDBnBgNVHR8EYDBeMFygWqBYhilodHRwOi8vY2Euc2FmZWxheWVyLmNv
+bS9jcmxzL2NybERlbW9zLmNybIYraHR0cDovL2RlbW8uc2FmZWxheWVyLmNvbS9jcmxzL2NybERl
+bW9zLmNybDANBgkqhkiG9w0BAQsFAAOCAQEAM+toNYBnUwV0Yr+s9aS2y0DbSnfVJnMzAZZ9JQuA
+qoRU/sW7z9WVh6CSj6mdjBq/9Uy4tZDGb67k8u1lCPeHu7NIA2PtwgGj+X5jUT1W317LtEb0ucrD
+XmwCrES1ddx8mkheXMnd+9Spu7DVXJjQ9xGiMBVLnaKwpyIsUS/OTpia7v8QfL5VoCxnqFNOQakD
+DxUBoe7uWSf1HdKaaXMYK8h6OqE9dLBkGGpc0jInuzQyTZUcO/pt8MWTymCPWA0RBN8ifNMuqcwQ
+P5AFtMMFFdgLruKtDklx9feYFtfQqMCnC3BRsQniYihSub6Y5aVWhqogMTyg889bOcWvXu25Fg==
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rt8WuJ2h2Bdqm7UPfdqvpdOXlq/qf4Jyto9WP8oXP1MC+1CetuBShcSF/rKxPN47OV2Utygnp9rx
+WHOzVdLzjEvqJ5ktQkKXnuv0xjhXNDE6ieuO35Xz89U25Zu9cI5MDBF9emKljZ87xMDwAHcFYXE5
+fAhGy/Df8fLVJWNe3Tc=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature505474-Object963841"><etsi:QualifyingProperties Target="#Signature505474"><etsi:SignedProperties Id="Signature505474-SignedProperties890159"><etsi:SignedSignatureProperties><etsi:SigningTime>2019-05-02T00:05:39+01:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>h3b1lZ7XkBzjEfIbLr77qr/2K60=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=Safelayer - Class 1 Root CA Demo,O=Safelayer Secure Communications\, S.A. [C.I.F. A61930046]</ds:X509IssuerName><ds:X509SerialNumber>85463280410865312509923466565322912239</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate><etsi:SignaturePolicyIdentifier><etsi:SignaturePolicyId><etsi:SigPolicyId><etsi:Identifier>http://www.facturae.es/politica_de_firma_formato_facturae/politica_de_firma_formato_facturae_v3_1.pdf</etsi:Identifier><etsi:Description>Política de Firma FacturaE v3.1</etsi:Description></etsi:SigPolicyId><etsi:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>Ohixl6upD6av8N7pEvDABhEL6hM=</ds:DigestValue></etsi:SigPolicyHash></etsi:SignaturePolicyId></etsi:SignaturePolicyIdentifier><etsi:SignerRole><etsi:ClaimedRoles><etsi:ClaimedRole>emisor</etsi:ClaimedRole></etsi:ClaimedRoles></etsi:SignerRole></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-426544"><etsi:Description>Factura electrónica</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></fe:Facturae>

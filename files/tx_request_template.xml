@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+  <SOAP-ENV:Header>
+    <wsse:Security>
+      <wsse:UsernameToken wsu:Id="SecurityToken-1322635784074900857">
+        <wsse:Username>validador.facturae</wsse:Username>
+        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">alumnoMISTIC</wsse:Password>
+      </wsse:UsernameToken>
+    </wsse:Security>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body wsu:Id="Id-2120151815129585349">
+    <dss:VerifyRequest xmlns:dss="http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd" xmlns:css="http://www.safelayer.com/TWS" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:1.0:assertion" xmlns:xades="http://uri.etsi.org/01903/v1.2.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Profile="urn:safelayer:tws:dss:1.0:profiles:xades:1.0:verify" RequestID="Id-454550977700895406">
+	<css:OptionalInputs>
+		<dss:AddCertificateValues/>
+		<dss:AddRevocationValues/>
+		<dss:AddTimeStampValues>
+			<dss:AddCertificateValues/>
+		</dss:AddTimeStampValues>
+	</css:OptionalInputs>     
+	<dss:InputDocuments>
+        <dss:Document>
+          <dss:Base64XML></dss:Base64XML>
+        </dss:Document>
+      </dss:InputDocuments>
+    </dss:VerifyRequest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
