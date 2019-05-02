@@ -51,10 +51,11 @@ while(True):
     # Obtenemos los resultados de verificación para mostrarlo por pantalla
     treeresponse = ET.ElementTree(ET.fromstring(response.content))
     rootresponse = treeresponse.getroot()
-    
+
     Result = rootresponse.find('{http://schemas.xmlsoap.org/soap/envelope/}Body/{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}VerifyResponse/{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}Result')
     ResultMajor = Result.find('{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}ResultMajor').text
     ResultMinor = Result.find('{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}ResultMinor').text
+
     
     print(colored("\nResultado de la verificación:",'magenta'))
 
@@ -72,6 +73,9 @@ while(True):
         ResultMessage = Result.find('{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}ResultMessage').text
         print (colored("\nMotivo de error: ",'cyan'))
         print ("ResultMessage: ", ResultMessage)
+    else:
+        SignerIdentity = rootresponse.find('{http://schemas.xmlsoap.org/soap/envelope/}Body/{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}VerifyResponse/{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}OptionalOutputs/{http://www.docs.oasis-open.org/dss/2004/06/oasis-dss-1.0-core-schema-wd-27.xsd}SignerIdentity').text
+        print(colored("SignerIdentity > ",'blue'), SignerIdentity)
 
     if(str(input(colored("\n\n¿Quieres realizar otra verificación? (s/n): ", 'yellow'))) != 's'):
         break 
