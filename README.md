@@ -10,6 +10,8 @@ para la verificación de firmas digitales.
 - Instalar dependencias necesarias:
 
   ```
+  python3 -m venv entorno
+  source entorno/bin/activate
   pip install -r requirements
   ```
 
