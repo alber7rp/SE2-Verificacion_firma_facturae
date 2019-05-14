@@ -12,7 +12,7 @@ para la verificación de firmas digitales.
   ```
   python3 -m venv entorno
   source entorno/bin/activate
-  pip install -r requirements
+  pip install -r requirements.txt
   ```
 
 - Iniciar la herramienta:
